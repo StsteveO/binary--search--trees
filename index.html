@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Search Trees</title>
+</head>
+<body>
+    <script>
+        //Build a Node class / factory. It should have an attribute for the data it stores as well as its left and right children.
+        class Node{
+            constructor(data){
+                this.data= data;
+                this.left= null;
+                this.right= null;
+            }
+        }
+        //Build a Tree class / factory which accepts an array when initialized. The Tree class should have a root attribute which uses the return value of buildTree which you’ll write next.
+        class Tree{
+            constructor(sortedArr){
+                this.sortedArr= sortedArr;
+                this.root= null;
+            }
+
+            buildTree(dataArr){
+                //turns it into a balanced binary tree full of Node objects appropriately placed (don’t forget to sort and remove duplicates!). The buildTree function should return the level-0 root node.
+            }
+            insert(){
+
+            }
+            delete(){
+
+            }
+            find(value){
+                //accepts a value and returns the node with the given value.
+            }
+            levelOrder(fxn){
+                //should traverse the tree in breadth-first level order and provide each node as the argument to the provided function.
+                //The method should return an array of values if no function is given.
+            }
+            inOrder(){
+
+            }
+            preOrder(){
+
+            }
+            postOrder(){
+                
+            }
+            height(){
+
+            }
+            depth(){
+
+            }
+            isBalanced(){
+
+            }
+            rebalance(){
+                
+            }
+        }
+
+    </script>
+</body>
+</html>
